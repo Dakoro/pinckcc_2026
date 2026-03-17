@@ -1,0 +1,42 @@
+# Core deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Medical image segmentation frameworks
+nnunetv2
+monai[all]>=1.3.0
+
+# Anatomy localization
+TotalSegmentator
+
+# Medical image I/O
+nibabel
+napari
+SimpleITK
+pydicom
+
+# ML utilities
+scikit-learn
+numpy
+scipy
+
+# AUPRC optimization
+libauc
+
+# Experiment tracking
+wandb
+mlflow
+
+# Code quality
+black==24.*
+isort
+
+# Visualization / notebooks
+matplotlib
+seaborn
+ipykernel
+jupyter
+
+# Misc
+tqdm
+pandas
